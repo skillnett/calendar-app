@@ -1,0 +1,14 @@
+@import './variables.scss';
+button {
+  background: none;
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+
+.ant-layout {
+  &>&-header {
+    height: $header-height;
+    background-color: #fff;
+  }
+}
